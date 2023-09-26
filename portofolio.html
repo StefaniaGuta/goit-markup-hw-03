@@ -13,92 +13,118 @@
     <link rel="stylesheet" href="css/style.css" />
 </head>
 
-<body class="global-body">    
-    <a class="logo" href="#">
-        <span class="logo-web">Web</span>
-        <span class="studio">Studio</span>
-    </a>
+<body class="global-body">  
+    <div class="container-header">
+        <div class="logo-header">
+            <a class="logo" href="#">
+                <span class="logo-web">Web</span>
+                <span class="studio">Studio</span>
+            </a>
+        </div>
 
-    <header class="header">
-        <nav class="navigation">
-                <a href="index.html" class="nav-link">Studio</a>
-                <a href="portofolio.html" class="nav-link" id="current">Portofolio</a>
-                <a href="#" class="nav-link">Contacts</a>
-        </nav>
+        <header class="header">
+            <nav class="navigation">
+                    <a href="index.html" class="nav-link">Studio</a>
+                    <a href="portofolio.html" class="nav-link" id="current">Portofolio</a>
+                    <a href="#" class="nav-link">Contacts</a>
+            </nav>
 
-        <a class="email-contact">info@devstudio.com</a>
-        <a class="email-contact">+1 212-772-4150</a>
-    </header>
-
+            <div class="imail-contact-section">
+                <a class="email-contact">info@devstudio.com</a>
+                <a class="email-contact">+1 212-772-4150</a>
+            </div>
+        </header>
+    </div>
+    
     <main>
-        <nav>
-            <ul class="button-navigation">
-                <li><button class="buttons" type="button">All</button></li>
-                <li><button class="buttons" type="button">Web-sites</button></li>
-                <li><button class="buttons" type="button">Apps</button></li>
-                <li><button class="buttons" type="button">Design</button></li>
-                <li><button class="buttons" type="button">Marketing</button></li>
-            </ul>
-        </nav>
-    
-        <section class="portofoliu">
-            <ul>
-                <li>
-                    <img width="370" src="./Images/technoduck.jpg" alt="web page">
-                    <h3>Technoduck</h3>
-                    <p>Web-site</p>
-                </li>
-    
-                <li>
-                    <img width="370" src="./Images/poster.jpg" alt="backetball players">
-                    <h3>Poster New Orlean vs Golden Star</h3>
-                    <p>Design</p>
-                </li>
-                
-                <li>
-                    <img width="370" src="./Images/seafood.jpg" alt="seafood restaurant">
-                    <h3>Seafood Restaurant </h3>
-                    <p>Apps</p>
-                </li>
-    
-                <li>
-                    <img width="370" src="./Images/project.jpg" alt="headphones">
-                    <h3>Project Prime</h3>
-                    <p>Marketing</p>
-                </li>
-    
-                <li>
-                    <img width="370" src="./Images/projectboxes.jpg" alt="boxes">
-                    <h3>Project Boxes</h3>
-                    <p>Apps</p>
-                </li>
-    
-                <li>
-                    <img width="370" src="./Images/inspiration.jpg" alt="computer">
-                    <h3>Inspiration has no Borders</h3>
-                    <p>Web-site</p>
-                </li>
-    
-                <li>
-                    <img width="370" src="./Images/limited.jpg" alt="book">
-                    <h3>Limited Edition</h3>
-                    <p>Design</p>
-                </li>
-    
-                <li>
-                    <img width="370" src="./Images/projectlab.jpg" alt="label tag">
-                    <h3>Project LAB</h3>
-                    <p>Marketing</p>
-                </li>
-    
-                <li>
-                    <img width="370" src="./Images/growing.jpg" alt="work on the computer">
-                    <h3>Growing Business</h3>
-                    <p>Apps</p>
-                </li>
-            </ul>
-        </section>
-
+        <div class="container-portofolio">
+            <nav class="btn-portofolio">
+                <ul class="button-navigation">
+                    <li><button class="buttons" type="button">All</button></li>
+                    <li><button class="buttons" type="button">Web-sites</button></li>
+                    <li><button class="buttons" type="button">Apps</button></li>
+                    <li><button class="buttons" type="button">Design</button></li>
+                    <li><button class="buttons" type="button">Marketing</button></li>
+                </ul>
+            </nav>
+        
+            <section class="portofoliu">
+                <ul class="card-set-portofoliu">
+                    <li class="item-portofoliu">
+                        <img width="370" src="./Images/technoduck.jpg" alt="web page">
+                    <div class="portofolio-card-description">
+                        <h3>Technoduck</h3>
+                        <p>Web-site</p>
+                    </div>
+                    </li>
+        
+                    <li class="item-portofoliu">
+                        <img width="370" src="./Images/poster.jpg" alt="backetball players">
+                    <div class="portofolio-card-description">
+                        <h3>Poster New Orlean vs Golden Star</h3>
+                        <p>Design</p>
+                    </div>
+                    </li>
+                    
+                    <li class="item-portofoliu">
+                        <img width="370" src="./Images/seafood.jpg" alt="seafood restaurant">
+                    <div class="portofolio-card-description">
+                            <h3>Seafood Restaurant </h3>
+                            <p>Apps</p>  
+                    </div> 
+                    </li>
+        
+                    <li class="item-portofoliu">
+                        <img width="370" src="./Images/project.jpg" alt="headphones">
+                    <div class="portofolio-card-description">
+                        <h3>Project Prime</h3>
+                         <p>Marketing</p>
+                    </div>
+                    </li>
+        
+                    <li class="item-portofoliu">
+                        <img width="370" src="./Images/projectboxes.jpg" alt="boxes">
+                    <div class="portofolio-card-description">
+                        <h3>Project Boxes</h3>
+                        <p>Apps</p>
+                    </div>    
+                    </li>
+        
+                    <li class="item-portofoliu">
+                        <img width="370" src="./Images/inspiration.jpg" alt="computer">
+                    <div class="portofolio-card-description">
+                        <h3>Inspiration has no Borders</h3>
+                        <p>Web-site</p>
+                    </div>
+                    </li>
+        
+                    <li class="item-portofoliu">
+                        <img width="370" src="./Images/limited.jpg" alt="book">
+                    <div class="portofolio-card-description">
+                        <h3>Limited Edition</h3>
+                        <p>Design</p>
+                    </div>    
+                    </li>
+        
+                    <li class="item-portofoliu">
+                        <img width="370" src="./Images/projectlab.jpg" alt="label tag">
+                    <div class="portofolio-card-description">
+                        <h3>Project LAB</h3>
+                        <p>Marketing</p>
+                    </div>    
+                    </li>
+        
+                    <li class="item-portofoliu">
+                        <img width="370" src="./Images/growing.jpg" alt="work on the computer">
+                    <div class="portofolio-card-description">
+                        <h3>Growing Business</h3>
+                        <p>Apps</p>
+                    </div>    
+                    </li>
+                </ul>
+            </section>
+        </div>
+        
         <footer class="footer-section">
             <div class="footer-container">
                 <div class="main-logo">
