@@ -10,7 +10,7 @@
     <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="global-body">
         <a class="logo" href="#">
@@ -37,38 +37,41 @@
     
 
     <main>
-        <div class="effective">
+        <div class="effective-container">
             <h1>EFFECTIVE SOLUTIONS FOR <br> YOUR BUSINESS</h1>
             <button class="request-button" type="button">Request our service</button>
         </div>
 
-        <div class="container-description">
-            <ul class="descriptions"> 
-                <span>
-                    <h3>ATTENTION TO DETAILS</h3>
-                    <p>We go into all the details and processes of your business to develop a customized solution.</p>
-                </span>
+        <section class="description-section">
+            <div class="container-description">
+                <ul class="descriptions"> 
+                    <li class="item-description">
+                        <h3>ATTENTION TO DETAILS</h3>
+                        <p>We go into all the details and processes of your business to develop a customized solution.</p>
+                    </li>
     
-                <span>
-                    <h3>PUNCTUALITY</h3>
-                    <p>With us, you can feel safe and secure. An important principle of the company: respect your time and deadlines.</p>
-                </span>
-               
-                <span>
-                    <h3>PLANNING</h3>
-                    <p>You will be able to observe and participate in every phase of solution development and implementation.</p>
-                </span>
-        
-                <span>
-                    <h3>MODERN TECHNOLOGIES</h3>
-                    <p>We use innovative tools to solve assigned tasks. It's time to simplify work processes.</p>
-                </span>
-            </ul>
-        </div>
+                    <li class="item-description">
+                            <h3>PUNCTUALITY</h3>
+                            <p>With us, you can feel safe and secure. An important principle of the company: respect your time and deadlines.</p>
+                    </li>
+    
+                    <li class="item-description">
+                            <h3>PLANNING</h3>
+                            <p>You will be able to observe and participate in every phase of solution development and implementation.</p>
+                    </li>
+    
+                    <li class="item-description">
+                            <h3>MODERN TECHNOLOGIES</h3>
+                            <p>We use innovative tools to solve assigned tasks. It's time to simplify work processes.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
         <section class="ocupation">
             <div class="container-ocupation">
                 <h2>What we do</h2>
-                <ul>
+                <ul class="items-ocupation">
                     <li><img width="370" src="./Images/work-on-computer.jpg" alt="lucru pe calculator"></li>
                     <li><img width="370" src="./Images/phone.jpg" alt="configurare telefon"></li>
                     <li><img width="370" src="./Images/colors.jpg" alt="diagrama culori"></li>
@@ -82,31 +85,31 @@
         <ul>
             <li>
                 <img width="270" src="./Images/ChristopherW.jpg" alt="Christopher Walker-Product Designer">
-                <div>
-                <h3>Christopher Walker</h3> 
-                <p>Product Designer</p>
+                <div class="card-description">
+                    <h3>Christopher Walker</h3> 
+                    <p>Product Designer</p>
                 </div>
             </li>
-            <br>
+            
             <li>
                 <img width="270" src="./Images/KylieE.jpg" alt="Kylie Evans-Frontend Developer" >
-                <div>
+                <div class="card-description">
                     <h3>Kylie Evans</h3>
                     <p>Frontend Developer</p>
                 </div>
             </li>
-            <br>
+           
             <li><img width="270" src="./Images/RyanHarris.jpg" alt="Ryan Harris-Marketing" >
-                <div>
+                <div class="card-description">
                     <h3>Ryan Harris</h3>
                     <p>Marketing</p>
                 </div>
             </li>
-            <br>
+           
             <li><img width="270" src="./Images/TylerM.jpg" alt="Tyler Moore-UI Designer" >
-                <div>
+                <div class="card-description">
                     <h3>Tyler Moore</h3>
-                <p>UI Designer</p>
+                    <p>UI Designer</p>
                 </div>
             </li>
         </ul>
@@ -114,16 +117,20 @@
 </section>
 
 <footer class="footer-section">
-    <a class="logo" href="#">
-        <span class="logo-web">Web</span>
-        <span class="studio-logo">Studio</span>
-    </a>
-
-    <address class="adress-section">
-        <h3>695 Park Ave, NY 10065, USA</h3>
-        <p class="email-contact">info@devstudio.com</p>
-        <p class="email-contact">+1 212-772-4150</p>         
-    </address>
+    <div class="footer-container">
+        <div class="main-logo">
+            <a class="logo" href="#">
+                <span class="logo-web">Web</span>
+                <span class="studio-logo">Studio</span>
+            </a>
+        </div>
+        
+        <address class="adress-section">
+            <span>695 Park Ave, NY 10065, USA</span>
+            <p class="email-contact">info@devstudio.com</p>
+            <p class="email-contact">+1 212-772-4150</p>         
+        </address>
+    </div>
 </footer>
     </main>
 </body>

@@ -31,7 +31,6 @@
    
 }
 
-
 .header a{
     color: var(--header-color);
     font-family: var(--nav-font-family);
@@ -122,13 +121,24 @@ color: var(--diff-color);
     background-color: #2F303A;
 }
 
-.adress-section h3{
+.footer-container{
+    width: 100%;
+    max-width: 1600px;
+    padding-top: 60px;
+    padding-left: 215px;
+    padding-bottom: 60px;
+    
+}
+
+.adress-section span{
     color: var(--adress-color);
     font-family: var(--nav-font-family);
     font-size: 14px;
     line-height: normal;
     letter-spacing: 0.42px;
-   font-style: normal;
+    font-style: normal;
+    margin-bottom: 12px;
+    margin-top: 28px;
 }
 
 .email-contact{
@@ -141,6 +151,7 @@ color: var(--diff-color);
     letter-spacing: 0.42px;
     cursor: pointer;
     font-style: normal;
+    gap: 12px;
 }
 
 .email-contact:hover,
@@ -156,33 +167,40 @@ color: var(--diff-color);
     line-height: normal;
     letter-spacing: 0.78px;
     text-decoration-line: none;
-    margin-left: 215px;
-    margin-top: 24px;
-    margin-bottom: 25px;
-    margin-right: auto;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    display: inline-flex;
+    gap: 0;
 }
 
 .studio-logo{
     color: var(--cut-color);
+
 }
 
 .studio{
     color: #000000;
 }
 
-.effective{
-    width: 1200px;
-    height: 600px;
+.main-logo{
+    margin-bottom: 28px;
+}
+
+.effective-container{
+    width: 100%;
+    max-width: 1200px;
     flex-shrink: 0;
     background-color: #2F303A;
+    padding-bottom: 200px ;
+    padding-top: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
-.effective h1{
+.effective-container h1{
     width: 696px;
-    padding-top: 200px;
     color: var(--adress-color);
     text-align: center;
     font-family: var(--nav-font-family);
@@ -191,6 +209,7 @@ color: var(--diff-color);
     line-height: 60px;
     letter-spacing: 2.64px;
     text-transform: uppercase;
+    margin-bottom: 30px;
 }
 
 .request-button{ 
@@ -209,7 +228,6 @@ color: var(--diff-color);
     letter-spacing: 0.96px;
     border: none;  
     cursor: pointer;  
-    
 }
 
 .request-button:hover,
@@ -220,13 +238,15 @@ color: var(--diff-color);
 }
 
 .container-description ul{
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     padding-top: 94px;
+    padding-bottom: 94px;
     display: flex;
     column-gap: 30px;
-    align-items: baseline;
     justify-content: center;
     flex-direction: row;
+    list-style-type: none;
 }
 
 .descriptions h3{
@@ -252,18 +272,9 @@ color: var(--diff-color);
 
 .container-ocupation{
     width: 1200px;
-    margin-top: 94px;
-    align-self: center;
-    padding-left: 215px;
-    padding-right: 215px;
-    padding-top: 94px;
-    display: block;
-}
-
-.container-ocupation img{
-    display: block;
     max-width: 100%;
-    height: auto;
+    align-content: center;
+    padding-bottom: 94px;
 }
 
 .ocupation h2{
@@ -274,27 +285,48 @@ color: var(--diff-color);
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.08px;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .ocupation ul{
+    width: 1200px;
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    align-content: baseline;
+    justify-content: center;
+    justify-items: center;
+    gap: 30px;
 }
 
-.our-team section{
-    background-color: var(--button-color);
-    list-style-type: none;
-    width: 1200px;
-    flex-shrink: 0px;
-    margin-top: 94px;
+.ocupation img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 370px;
+    height: 294px;
 }
 
 .container-our-team{
-    display: block;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    background-color: var(--button-color);
+    list-style-type: none;
+    width: 100%;
+    max-width: 1200px;
+    padding-bottom: 94px;
+}
 
+.container-our-team ul{
+    max-width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.our-team img{
+    display: block;
+    width: 270px;
+    height: auto;
 }
 
 .our-team h2{
@@ -317,6 +349,7 @@ color: var(--diff-color);
     color: var(--cut-color);
 }
 
+
 .our-team h3{
     font-size: 16px;
     font-family: var(--nav-font-family);
@@ -324,6 +357,8 @@ color: var(--diff-color);
     color: var(--nav-color);
     text-align: center;
     letter-spacing: 0.48px;
+    margin-bottom: 10px;
+    padding-top: 30px;
 }
 
 .our-team p{
@@ -332,5 +367,6 @@ color: var(--diff-color);
     color: var(--header-color);
     text-align: center;
     letter-spacing: 0.48px;
+    padding-bottom: 30px;
 }
 
