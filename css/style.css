@@ -8,14 +8,14 @@
     --adress-color:#FFF;
 }
 .global-body body{
-    width: 1600px;
+    overflow-x: hidden;
     font-family: 'Roboto', 'Courier New', Courier, monospace, sans-serif;
     background-color: var(--adress-color);
     text-decoration: none;
 }
 
 .container-header{
-    width: auto;
+    overflow-x: hidden;
     background-color: var(--cut-color);
     border-bottom: 1px solid #ececec;
     display: flex;
@@ -79,7 +79,7 @@
 
 /*Studio page*/
 .effectiv-btn-section{
-    width: auto;
+    overflow-x: hidden;
     background-color: #2F303A;
     padding: 200px 0;
    
@@ -130,7 +130,7 @@
 }
 
 .description-section{
-    width: auto;
+    overflow-x: hidden;
     padding: 94px 215px;
 }    
 
@@ -167,7 +167,7 @@
 }
 
 .ocupation-section{
-    width: auto;
+    overflow-x: hidden;
     padding-bottom: 94px;
     background-color: var(--adress-color);
 }
@@ -204,7 +204,7 @@
 }
 
 .our-team-section{
-    width: auto;
+    overflow-x: hidden;
     background-color: var(--button-color);
     padding: 0 215px 94px 215px;
 }
@@ -270,7 +270,7 @@
 
 /*Portofolio page*/
 .container-portofolio{
-    width: auto;
+    overflow-x: hidden;
     display: block;
     padding: 94px 0;
     margin-left: auto;
@@ -362,8 +362,9 @@
 
 /*Footer section*/
 .footer-section{
+    overflow-x: hidden;
     background-color: #2F303A;
-    width: auto;
+    overflow-x: hidden;
     padding: 60px 0 60px 215px;
 }
 
